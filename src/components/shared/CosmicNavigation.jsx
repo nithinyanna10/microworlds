@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useAudio } from '../../hooks/useAudio'
-import { FaHome, FaBuilding, FaGlobe, FaCube, FaStar, FaCode, FaEye, FaPalette } from 'react-icons/fa'
+import { FaHome, FaBuilding, FaGlobe, FaCube, FaStar, FaCode, FaEye, FaPalette, FaPlay } from 'react-icons/fa'
 import { AnimatePresence } from 'framer-motion'
 
 const CosmicNavigation = () => {
@@ -17,7 +17,9 @@ const CosmicNavigation = () => {
     { path: '/architecture', label: 'UX Architecture', icon: FaCube },
     { path: '/patterns', label: 'UX Patterns', icon: FaCode },
     { path: '/atomic', label: 'Atomic Design', icon: FaEye },
-    { path: '/tokens', label: 'Token Studio', icon: FaPalette }
+    { path: '/tokens', label: 'Token Studio', icon: FaPalette },
+    { path: '/motion', label: 'Motion Lab', icon: FaPlay },
+    { path: '/story', label: 'Story Mode', icon: FaHome }
   ]
 
   const handleNavClick = () => {

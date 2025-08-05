@@ -8,11 +8,13 @@ import UXArchitecture from './pages/UXArchitecture'
 import UXPatterns from './pages/UXPatterns'
 import AtomicDesign from './pages/AtomicDesign'
 import TokenStudio from './pages/TokenStudio'
+import StoryMode from './pages/StoryMode'
+import MotionLab from './pages/MotionLab'
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App smooth-scroll">
         <CosmicNavigation />
         <Routes>
           <Route path="/" element={<CosmicBootup />} />
@@ -22,6 +24,8 @@ function App() {
           <Route path="/patterns" element={<UXPatterns />} />
           <Route path="/atomic" element={<AtomicDesign />} />
           <Route path="/tokens" element={<TokenStudio />} />
+          <Route path="/story" element={<StoryMode />} />
+          <Route path="/motion" element={<MotionLab />} />
         </Routes>
       </div>
     </Router>
