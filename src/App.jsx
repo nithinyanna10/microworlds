@@ -10,6 +10,8 @@ import AtomicDesign from './pages/AtomicDesign'
 import TokenStudio from './pages/TokenStudio'
 import StoryMode from './pages/StoryMode'
 import MotionLab from './pages/MotionLab'
+import IntelligenceLayer from './pages/IntelligenceLayer'
+import ModularSandbox from './pages/ModularSandbox'
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/tokens" element={<TokenStudio />} />
           <Route path="/story" element={<StoryMode />} />
           <Route path="/motion" element={<MotionLab />} />
+          <Route path="/intelligence" element={<IntelligenceLayer />} />
+          <Route path="/sandbox" element={<ModularSandbox />} />
         </Routes>
       </div>
     </Router>
