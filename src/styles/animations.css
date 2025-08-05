@@ -1,0 +1,55 @@
+/* Cosmic Animations for Microworlds */
+
+@keyframes cosmic-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+@keyframes particle-glow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes orbit-rotation {
+  from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes nebula-shift {
+  0%, 100% { filter: hue-rotate(0deg) brightness(1); }
+  50% { filter: hue-rotate(180deg) brightness(1.2); }
+}
+
+@keyframes cosmic-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+}
+
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.cosmic-float {
+  animation: cosmic-float 6s ease-in-out infinite;
+}
+
+.particle-glow {
+  animation: particle-glow 3s ease-in-out infinite;
+}
+
+.orbit-rotation {
+  animation: orbit-rotation 20s linear infinite;
+}
+
+.nebula-shift {
+  animation: nebula-shift 10s ease-in-out infinite;
+}
+
+.cosmic-pulse {
+  animation: cosmic-pulse 3s ease-in-out infinite;
+}
+
+.star-twinkle {
+  animation: star-twinkle 2s ease-in-out infinite;
+} 

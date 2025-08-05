@@ -1,0 +1,43 @@
+IMAGES NEEDED:
+
+LOGO FOLDER (/images/logos/):
+1. microworlds-logo.svg - Main company logo (atom to universe evolution)
+2. microworlds-logo-dark.png - Dark version of logo
+3. microworlds-logo-light.png - Light version of logo
+4. brand-evolution.gif - Animated logo evolution sequence
+
+PLANETS FOLDER (/images/planets/):
+1. novabank-planet.png - Green/emerald planet for NovaBank
+2. synthmed-planet.png - Purple/pink planet for SynthMed  
+3. quantumcorp-planet.png - Blue/cyan planet for QuantumCorp
+4. cybertech-planet.png - Orange/red planet for CyberTech
+5. earth-planet.png - Blue Earth-like planet
+6. mars-planet.png - Red Mars-like planet
+7. jupiter-planet.png - Gas giant with rings
+8. nebula-background.png - Colorful nebula background
+
+PRODUCTS FOLDER (/images/products/):
+1. orbitos-logo.png - OrbitOS product logo
+2. flowui-logo.png - FlowUI product logo
+3. quantum-dashboard.png - Quantum dashboard screenshot
+4. neural-interface.png - Neural interface mockup
+5. cosmic-design-system.png - Design system visualization
+
+BACKGROUNDS FOLDER (/images/backgrounds/):
+1. cosmic-space.jpg - Deep space background
+2. nebula-clouds.jpg - Colorful nebula clouds
+3. star-field.jpg - Star field background
+4. galaxy-spiral.jpg - Spiral galaxy background
+5. cosmic-dust.jpg - Cosmic dust particles
+
+SUGGESTED IMAGE SPECIFICATIONS:
+- Logos: SVG preferred, PNG fallback, 512x512px
+- Planets: PNG/JPG, 1024x1024px, transparent background
+- Products: PNG/JPG, 1920x1080px
+- Backgrounds: JPG, 1920x1080px minimum
+
+You can find free space/planet images on:
+- Unsplash.com (search: space, planets, nebula)
+- Pixabay.com (search: cosmic, galaxy, space)
+- Pexels.com (search: universe, stars)
+- NASA.gov (public domain space images) 

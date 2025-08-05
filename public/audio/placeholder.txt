@@ -1,0 +1,17 @@
+AUDIO FILES NEEDED:
+
+1. hover-click.mp3 - Short click sound for UI interactions
+2. section-transition.mp3 - Smooth transition sound between sections
+3. ambient-space.mp3 - Looping ambient space background music
+4. cosmic-bootup.mp3 - Dramatic bootup sequence sound
+
+SUGGESTED AUDIO CHARACTERISTICS:
+- hover-click.mp3: 0.5s duration, soft electronic click
+- section-transition.mp3: 1-2s duration, smooth whoosh sound
+- ambient-space.mp3: 2-3min loop, atmospheric space sounds
+- cosmic-bootup.mp3: 3-5s duration, dramatic startup sequence
+
+You can find free space/electronic sounds on:
+- Freesound.org
+- Zapsplat.com
+- Pixabay.com (audio section) 
